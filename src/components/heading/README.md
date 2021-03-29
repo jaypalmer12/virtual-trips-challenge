@@ -16,6 +16,6 @@ import { H1Element, H2Element } from '/components';
 
 ##### Optional props
 
-| Name     | Type       | Default   | Description |
-| -------- | ---------- | --------- | ----------- | ------ | ------ | ------------------- |
-| `weight` | 'NORMAL' / | 'LIGHT' / | 'MEDIUM' /  | 'BOLD' | `BOLD` | Set the font weight |
+| Name     | Type                          | Default | Description         |
+| -------- | ----------------------------- | ------- | ------------------- |
+| `weight` | `NORMAL, LIGHT, MEDIUM, BOLD` | `BOLD`  | Set the font weight |
