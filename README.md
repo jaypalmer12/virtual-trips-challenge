@@ -2,7 +2,7 @@
 
 A Next.js application for searching and displaying a list of locations
 
-[DEMO PAGE HERE](https://github.com/ladumainc/laduma-component-library)
+[DEMO PAGE HERE](https://virtual-trips-challenge.vercel.app/)
 
 ## Directory structure
 
