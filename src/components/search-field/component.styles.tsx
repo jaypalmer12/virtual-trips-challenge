@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { breakpoints, colors, theme } from '../../../styles';
+import { colors, theme } from '../../../styles';
 
 export const InputField = styled.input`
     width: 100%;
@@ -11,10 +11,11 @@ export const InputField = styled.input`
     border-style: solid;
     font-size: 20px;
     color: black;
-    transition: border-color 300s ease-in-out;
+    transition: border-color 200ms ease-in-out;
 
     &:focus {
         outline: none;
+        border-color: ${theme.secondary};
     }
 
     &::placeholder {
