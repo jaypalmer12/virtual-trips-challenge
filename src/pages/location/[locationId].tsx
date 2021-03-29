@@ -9,7 +9,7 @@ const LocationPage = ({ data: location }: PageProps): JSX.Element => {
     return location ? <Map coordinates={coordinates} /> : <Loader />;
 };
 
-export const getServerSideProps = async (context) => {
+export const getServerSideProps = async (context): Promise<{ props?: PageProps; notFound?: boolean }> => {
     const queryUrl = `${process.env.NEXT_PUBLIC_API}locations/${context.params.locationId}`;
     const response = await fetch(queryUrl);
     const data: Location = await response.json();

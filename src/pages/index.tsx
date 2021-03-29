@@ -46,7 +46,7 @@ const HomePage = (props: PageProps): JSX.Element => {
     );
 };
 
-export async function getStaticProps(context) {
+export async function getStaticProps(context): Promise<{ props: PageProps }> {
     return {
         props: {
             pageTitle: 'Home',
